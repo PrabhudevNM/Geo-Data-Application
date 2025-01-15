@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const axiosInstance = axios.create({
-  baseURL: 'http://localhost:9050',
+  baseURL: 'https://geo-data-application-3j88.onrender.com',
 });
 
 export default axiosInstance;
