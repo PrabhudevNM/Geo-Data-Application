@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Sample KML File</name>
+    <description>Example KML file for demonstration</description>
+
+    <!-- Placemark: A single point -->
+    <Placemark>
+      <name>My Home</name>
+      <description>This is my house.</description>
+      <Point>
+        <coordinates>-122.0822035425683,37.42228990140251,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <!-- Placemark: A polygon -->
+    <Placemark>
+      <name>Sample Polygon</name>
+      <description>A simple polygon.</description>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              -122.0839597145766,37.42222904525232,0
+              -122.0839938641162,37.42156927867553,0
+              -122.0834786372182,37.42156927867553,0
+              -122.0834444876766,37.42222904525232,0
+              -122.0839597145766,37.42222904525232,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>
